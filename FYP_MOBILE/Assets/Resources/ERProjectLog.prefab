@@ -1,0 +1,1988 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+PrefabInstance:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+--- !u!1 &1828840687882779
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4701110892499132}
+  - component: {fileID: 114095126212227501}
+  m_Layer: 0
+  m_Name: ERProjectLog
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4701110892499132
+Transform:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828840687882779}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114095126212227501
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828840687882779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b78aeb351dc5bb1499a5ad10cc9f0a03, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  QOQDQOOQDDQOOQ:
+  - version: 2.0.0
+    name: Fence 1
+    id: 1
+    timestamp: 1427360602.55355
+    objectType: 0
+    gameobjectGUID:
+    textureGUID:
+    m_distance: 1.9
+    uvx: 0.1
+    uvy: 1
+    position: 0
+    splinePosition: 0
+    selectedRotation: 0
+    nodeList: []
+    uvDistances: []
+    reverseUVs: 0
+    totalDistance: 0
+    snapList:
+    colorList: []
+    gameobjectStartGUID:
+    gameobjectEndGUID:
+    align: 0
+    weld: 1
+    combine: 1
+    combineInstantiated: 1
+    markerActive: 1
+    uvType: 0
+    uv: 1
+    randomObjects: 0
+    sidewaysOffset: 0
+    density: 0
+    goPath:
+    startPath:
+    endPath:
+    texturePath:
+    terrainTree: 0
+    minScale: 1
+    maxScale: 1
+    childOrderActive: 1
+    childOrder: 2
+    meshBoundsAlignment: 1
+    xPosition: 0
+    relativeTo: 0
+    yPosition: 0
+    yRotation: 0
+    oldSidwaysDistance: 0
+    sidewaysDistanceUpdate: 0
+    uvYRound: 0
+    adjustUV: 1
+    collider: 0
+    tangents: 0
+    sourceObject: {fileID: 1789303112967710, guid: 9621e05caabf0e64a9bdfa71ca1d0ae3, type: 2}
+    flipMesh: 0
+    endObject: {fileID: 0}
+    connectionObject: {fileID: 0}
+    material: {fileID: 0}
+    meshObjects: []
+    includeStartSegment: 0
+    startSegmentOffset: 0
+    includeStartEdgeTris: 0
+    includeEndSegment: 0
+    endSegmentOffset: 0
+    includeEndEdgeTris: 0
+    adjustToRoadWidth: 0
+    xOffset: 0
+    startOffset: 0
+    endOffset: 0
+    totalZDistance: 0
+    middleZDistance: 1.9
+    startZDistance: 0
+    endZDistance: 0
+    minStartZ: 10000
+    maxStartZ: -10000
+    minMiddleZ: 10000
+    maxMiddleZ: -10000
+    minEndZ: 10000
+    maxEndZ: -10000
+    smoothStart: 0
+    smoothMiddle: 0
+    smoothEnd: 0
+    targetObject: {fileID: 0}
+    bridgeObject: 0
+    snapToTerrain: 0
+    layer: 0
+    deformationObject: 0
+    isStatic: 0
+  - version: 2.0.0
+    name: Fence 2
+    id: 2
+    timestamp: 1427360606.46278
+    objectType: 2
+    gameobjectGUID:
+    textureGUID:
+    m_distance: 10
+    uvx: 0.1
+    uvy: 1
+    position: 0
+    splinePosition: 0
+    selectedRotation: 0
+    nodeList: []
+    uvDistances: []
+    reverseUVs: 0
+    totalDistance: 0
+    snapList:
+    colorList: []
+    gameobjectStartGUID:
+    gameobjectEndGUID:
+    align: 0
+    weld: 1
+    combine: 1
+    combineInstantiated: 1
+    markerActive: 1
+    uvType: 0
+    uv: 1
+    randomObjects: 0
+    sidewaysOffset: 0
+    density: 0
+    goPath:
+    startPath:
+    endPath:
+    texturePath:
+    terrainTree: 0
+    minScale: 1
+    maxScale: 1
+    childOrderActive: 0
+    childOrder: 0
+    meshBoundsAlignment: 0
+    xPosition: 0
+    relativeTo: 0
+    yPosition: 0
+    yRotation: 0
+    oldSidwaysDistance: 0
+    sidewaysDistanceUpdate: 0
+    uvYRound: 0
+    adjustUV: 1
+    collider: 1
+    tangents: 0
+    sourceObject: {fileID: 1585207833426443, guid: 6462e4ac55cf57d4d9d49a05e960dfa7, type: 2}
+    flipMesh: 0
+    endObject: {fileID: 0}
+    connectionObject: {fileID: 0}
+    material: {fileID: 0}
+    meshObjects: []
+    includeStartSegment: 0
+    startSegmentOffset: 0
+    includeStartEdgeTris: 0
+    includeEndSegment: 1
+    endSegmentOffset: 0
+    includeEndEdgeTris: 0
+    adjustToRoadWidth: 0
+    xOffset: 0
+    startOffset: 0
+    endOffset: 0.1109653
+    totalZDistance: 3.04859
+    middleZDistance: 2.931787
+    startZDistance: 2.931787
+    endZDistance: 3.038815
+    minStartZ: 0.009774997
+    maxStartZ: 2.941562
+    minMiddleZ: 0.009774997
+    maxMiddleZ: 2.941562
+    minEndZ: 0.009774997
+    maxEndZ: 3.04859
+    smoothStart: 0
+    smoothMiddle: 0
+    smoothEnd: 0
+    targetObject: {fileID: 0}
+    bridgeObject: 0
+    snapToTerrain: 0
+    layer: 0
+    deformationObject: 0
+    isStatic: 0
+  - version: 2.0.0
+    name: Bridge Simple
+    id: 3
+    timestamp: 1428149487.06439
+    objectType: 2
+    gameobjectGUID:
+    textureGUID:
+    m_distance: 10
+    uvx: 0.1
+    uvy: 1
+    position: 0
+    splinePosition: 0
+    selectedRotation: 0
+    nodeList: []
+    uvDistances: []
+    reverseUVs: 0
+    totalDistance: 0
+    snapList:
+    colorList: []
+    gameobjectStartGUID:
+    gameobjectEndGUID:
+    align: 3
+    weld: 1
+    combine: 1
+    combineInstantiated: 1
+    markerActive: 0
+    uvType: 0
+    uv: 1
+    randomObjects: 0
+    sidewaysOffset: 0
+    density: 0
+    goPath:
+    startPath:
+    endPath:
+    texturePath:
+    terrainTree: 0
+    minScale: 1
+    maxScale: 1
+    childOrderActive: 0
+    childOrder: 0
+    meshBoundsAlignment: 0
+    xPosition: 0
+    relativeTo: 0
+    yPosition: 0
+    yRotation: 0
+    oldSidwaysDistance: 0
+    sidewaysDistanceUpdate: 0
+    uvYRound: 0
+    adjustUV: 1
+    collider: 1
+    tangents: 0
+    sourceObject: {fileID: 1689021000452624, guid: 94c64ac9ed0a0eb4f8992e184d1fb091, type: 2}
+    flipMesh: 0
+    endObject: {fileID: 0}
+    connectionObject: {fileID: 0}
+    material: {fileID: 0}
+    meshObjects: []
+    includeStartSegment: 1
+    startSegmentOffset: 0
+    includeStartEdgeTris: 0
+    includeEndSegment: 1
+    endSegmentOffset: 0
+    includeEndEdgeTris: 0
+    adjustToRoadWidth: 1
+    xOffset: 3.515358
+    startOffset: 0.4592881
+    endOffset: 0.4595058
+    totalZDistance: 2.895154
+    middleZDistance: 1.976575
+    startZDistance: 2.435649
+    endZDistance: 2.436081
+    minStartZ: -4.768372E-07
+    maxStartZ: 2.435649
+    minMiddleZ: 0.4590743
+    maxMiddleZ: 2.435649
+    minEndZ: 0.4590743
+    maxEndZ: 2.895155
+    smoothStart: 1
+    smoothMiddle: 1
+    smoothEnd: 1
+    targetObject: {fileID: 0}
+    bridgeObject: 1
+    snapToTerrain: 0
+    layer: 0
+    deformationObject: 0
+    isStatic: 1
+  - version: 2.0.0
+    name: Bridge Medieval
+    id: 4
+    timestamp: 1427360618.79748
+    objectType: 2
+    gameobjectGUID:
+    textureGUID:
+    m_distance: 10
+    uvx: 0.1
+    uvy: 1
+    position: 0
+    splinePosition: 0
+    selectedRotation: 0
+    nodeList: []
+    uvDistances: []
+    reverseUVs: 0
+    totalDistance: 0
+    snapList:
+    colorList: []
+    gameobjectStartGUID:
+    gameobjectEndGUID:
+    align: 3
+    weld: 1
+    combine: 1
+    combineInstantiated: 1
+    markerActive: 0
+    uvType: 0
+    uv: 1
+    randomObjects: 0
+    sidewaysOffset: 0
+    density: 0
+    goPath:
+    startPath:
+    endPath:
+    texturePath:
+    terrainTree: 0
+    minScale: 1
+    maxScale: 1
+    childOrderActive: 0
+    childOrder: 0
+    meshBoundsAlignment: 0
+    xPosition: 0
+    relativeTo: 0
+    yPosition: 0
+    yRotation: 0
+    oldSidwaysDistance: 0
+    sidewaysDistanceUpdate: 0
+    uvYRound: 0
+    adjustUV: 1
+    collider: 1
+    tangents: 0
+    sourceObject: {fileID: 1305805603876340, guid: b4a3e7e9662d63f47a2230f749aafd87, type: 2}
+    flipMesh: 0
+    endObject: {fileID: 0}
+    connectionObject: {fileID: 0}
+    material: {fileID: 0}
+    meshObjects: []
+    includeStartSegment: 1
+    startSegmentOffset: 0
+    includeStartEdgeTris: 1
+    includeEndSegment: 1
+    endSegmentOffset: 0
+    includeEndEdgeTris: 0
+    adjustToRoadWidth: 1
+    xOffset: 3.668705
+    startOffset: 1.020621
+    endOffset: 1.509732
+    totalZDistance: 7.576612
+    middleZDistance: 5.046261
+    startZDistance: 6.066881
+    endZDistance: 6.555993
+    minStartZ: -4.470348E-07
+    maxStartZ: 6.066881
+    minMiddleZ: 1.02062
+    maxMiddleZ: 6.066881
+    minEndZ: 1.02062
+    maxEndZ: 7.576613
+    smoothStart: 0
+    smoothMiddle: 0
+    smoothEnd: 0
+    targetObject: {fileID: 0}
+    bridgeObject: 1
+    snapToTerrain: 0
+    layer: 0
+    deformationObject: 0
+    isStatic: 1
+  - version: 2.0.0
+    name: River Surface
+    id: 5
+    timestamp: 1428338253.38366
+    objectType: 1
+    gameobjectGUID:
+    textureGUID:
+    m_distance: 5
+    uvx: 0.1
+    uvy: 1
+    position: 0
+    splinePosition: 0
+    selectedRotation: 0
+    nodeList:
+    - {x: -11, y: 0}
+    - {x: 11, y: 0}
+    uvDistances:
+    - 0
+    - 1
+    reverseUVs: 0
+    totalDistance: 0
+    snapList: 0000
+    colorList:
+    - {r: 1, g: 1, b: 1, a: 1}
+    - {r: 1, g: 1, b: 1, a: 1}
+    gameobjectStartGUID:
+    gameobjectEndGUID:
+    align: 0
+    weld: 1
+    combine: 1
+    combineInstantiated: 1
+    markerActive: 1
+    uvType: 0
+    uv: 1
+    randomObjects: 0
+    sidewaysOffset: 0
+    density: 0
+    goPath:
+    startPath:
+    endPath:
+    texturePath:
+    terrainTree: 0
+    minScale: 1
+    maxScale: 1
+    childOrderActive: 0
+    childOrder: 0
+    meshBoundsAlignment: 0
+    xPosition: 0
+    relativeTo: 0
+    yPosition: 0
+    yRotation: 0
+    oldSidwaysDistance: 0
+    sidewaysDistanceUpdate: 0
+    uvYRound: 0
+    adjustUV: 1
+    collider: 0
+    tangents: 0
+    sourceObject: {fileID: 0}
+    flipMesh: 0
+    endObject: {fileID: 0}
+    connectionObject: {fileID: 0}
+    material: {fileID: 0}
+    meshObjects: []
+    includeStartSegment: 0
+    startSegmentOffset: 0
+    includeStartEdgeTris: 0
+    includeEndSegment: 0
+    endSegmentOffset: 0
+    includeEndEdgeTris: 0
+    adjustToRoadWidth: 0
+    xOffset: 0
+    startOffset: 0
+    endOffset: 0
+    totalZDistance: 0
+    middleZDistance: 5
+    startZDistance: 0
+    endZDistance: 0
+    minStartZ: 10000
+    maxStartZ: -10000
+    minMiddleZ: 10000
+    maxMiddleZ: -10000
+    minEndZ: 10000
+    maxEndZ: -10000
+    smoothStart: 0
+    smoothMiddle: 0
+    smoothEnd: 0
+    targetObject: {fileID: 1080817820796803, guid: 9bd575ce56938714ca546b3be47888e6, type: 2}
+    bridgeObject: 0
+    snapToTerrain: 0
+    layer: 0
+    deformationObject: 0
+    isStatic: 1
+  - version: 2.0.0
+    name: River Bed
+    id: 6
+    timestamp: 1428338266.02538
+    objectType: 1
+    gameobjectGUID:
+    textureGUID:
+    m_distance: 10
+    uvx: 0.1
+    uvy: 1
+    position: 0
+    splinePosition: 0
+    selectedRotation: 0
+    nodeList:
+    - {x: -11, y: 1.75}
+    - {x: -9, y: -2}
+    - {x: 9, y: -2}
+    - {x: 11, y: 1.76}
+    uvDistances:
+    - 0
+    - 0.1603239
+    - 0.8393431
+    - 1
+    reverseUVs: 0
+    totalDistance: 0
+    snapList: 00000000
+    colorList:
+    - {r: 1, g: 1, b: 1, a: 1}
+    - {r: 1, g: 1, b: 1, a: 1}
+    - {r: 1, g: 1, b: 1, a: 1}
+    - {r: 1, g: 1, b: 1, a: 1}
+    gameobjectStartGUID:
+    gameobjectEndGUID:
+    align: 0
+    weld: 1
+    combine: 1
+    combineInstantiated: 1
+    markerActive: 1
+    uvType: 0
+    uv: 1
+    randomObjects: 0
+    sidewaysOffset: 0
+    density: 0
+    goPath:
+    startPath:
+    endPath:
+    texturePath:
+    terrainTree: 0
+    minScale: 1
+    maxScale: 1
+    childOrderActive: 0
+    childOrder: 0
+    meshBoundsAlignment: 0
+    xPosition: 0
+    relativeTo: 0
+    yPosition: 0
+    yRotation: 0
+    oldSidwaysDistance: 0
+    sidewaysDistanceUpdate: 0
+    uvYRound: 0
+    adjustUV: 1
+    collider: 1
+    tangents: 0
+    sourceObject: {fileID: 0}
+    flipMesh: 0
+    endObject: {fileID: 0}
+    connectionObject: {fileID: 0}
+    material: {fileID: 2100000, guid: 8a1a75754d7f5564ba5809d222165681, type: 2}
+    meshObjects: []
+    includeStartSegment: 0
+    startSegmentOffset: 0
+    includeStartEdgeTris: 0
+    includeEndSegment: 0
+    endSegmentOffset: 0
+    includeEndEdgeTris: 0
+    adjustToRoadWidth: 0
+    xOffset: 0
+    startOffset: 0
+    endOffset: 0
+    totalZDistance: 0
+    middleZDistance: 10
+    startZDistance: 0
+    endZDistance: 0
+    minStartZ: 10000
+    maxStartZ: -10000
+    minMiddleZ: 10000
+    maxMiddleZ: -10000
+    minEndZ: 10000
+    maxEndZ: -10000
+    smoothStart: 0
+    smoothMiddle: 0
+    smoothEnd: 0
+    targetObject: {fileID: 0}
+    bridgeObject: 0
+    snapToTerrain: 0
+    layer: 0
+    deformationObject: 1
+    isStatic: 0
+  - version: 2.0.0
+    name: Curb Stone Left
+    id: 1422201194.12065
+    timestamp: 1427360634.05235
+    objectType: 2
+    gameobjectGUID:
+    textureGUID:
+    m_distance: 10
+    uvx: 0.1
+    uvy: 1
+    position: 0
+    splinePosition: 0
+    selectedRotation: 0
+    nodeList: []
+    uvDistances: []
+    reverseUVs: 0
+    totalDistance: 0
+    snapList:
+    colorList: []
+    gameobjectStartGUID:
+    gameobjectEndGUID:
+    align: 3
+    weld: 1
+    combine: 1
+    combineInstantiated: 1
+    markerActive: 0
+    uvType: 0
+    uv: 1
+    randomObjects: 0
+    sidewaysOffset: 0
+    density: 0
+    goPath:
+    startPath:
+    endPath:
+    texturePath:
+    terrainTree: 0
+    minScale: 1
+    maxScale: 1
+    childOrderActive: 0
+    childOrder: 0
+    meshBoundsAlignment: 0
+    xPosition: 0
+    relativeTo: 1
+    yPosition: 0
+    yRotation: 0
+    oldSidwaysDistance: 0
+    sidewaysDistanceUpdate: 0
+    uvYRound: 0
+    adjustUV: 1
+    collider: 0
+    tangents: 0
+    sourceObject: {fileID: 1063365892547657, guid: 652037f6852ae8642a22fc9c43fb776d, type: 2}
+    flipMesh: 0
+    endObject: {fileID: 0}
+    connectionObject: {fileID: 0}
+    material: {fileID: 0}
+    meshObjects: []
+    includeStartSegment: 1
+    startSegmentOffset: 0
+    includeStartEdgeTris: 0
+    includeEndSegment: 1
+    endSegmentOffset: 0
+    includeEndEdgeTris: 0
+    adjustToRoadWidth: 0
+    xOffset: 0
+    startOffset: 1.312338
+    endOffset: 1.312338
+    totalZDistance: 3.93701
+    middleZDistance: 1.312335
+    startZDistance: 2.624673
+    endZDistance: 2.624672
+    minStartZ: 0
+    maxStartZ: 2.624673
+    minMiddleZ: 1.312338
+    maxMiddleZ: 2.624673
+    minEndZ: 1.312338
+    maxEndZ: 3.93701
+    smoothStart: 0
+    smoothMiddle: 0
+    smoothEnd: 0
+    targetObject: {fileID: 0}
+    bridgeObject: 0
+    snapToTerrain: 0
+    layer: 0
+    deformationObject: 0
+    isStatic: 1
+  - version: 2.0.0
+    name: Curb Stone Right
+    id: 1422201446.40108
+    timestamp: 1427360638.10559
+    objectType: 2
+    gameobjectGUID:
+    textureGUID:
+    m_distance: 10
+    uvx: 0.1
+    uvy: 1
+    position: 0
+    splinePosition: 0
+    selectedRotation: 0
+    nodeList: []
+    uvDistances: []
+    reverseUVs: 0
+    totalDistance: 0
+    snapList:
+    colorList: []
+    gameobjectStartGUID:
+    gameobjectEndGUID:
+    align: 3
+    weld: 1
+    combine: 1
+    combineInstantiated: 1
+    markerActive: 0
+    uvType: 0
+    uv: 1
+    randomObjects: 0
+    sidewaysOffset: 0
+    density: 0
+    goPath:
+    startPath:
+    endPath:
+    texturePath:
+    terrainTree: 0
+    minScale: 1
+    maxScale: 1
+    childOrderActive: 0
+    childOrder: 0
+    meshBoundsAlignment: 0
+    xPosition: 0
+    relativeTo: 2
+    yPosition: 0
+    yRotation: 0
+    oldSidwaysDistance: 0
+    sidewaysDistanceUpdate: 0
+    uvYRound: 0
+    adjustUV: 1
+    collider: 0
+    tangents: 0
+    sourceObject: {fileID: 1063365892547657, guid: 652037f6852ae8642a22fc9c43fb776d, type: 2}
+    flipMesh: 1
+    endObject: {fileID: 0}
+    connectionObject: {fileID: 0}
+    material: {fileID: 0}
+    meshObjects: []
+    includeStartSegment: 1
+    startSegmentOffset: 0
+    includeStartEdgeTris: 0
+    includeEndSegment: 1
+    endSegmentOffset: 0
+    includeEndEdgeTris: 0
+    adjustToRoadWidth: 0
+    xOffset: 0
+    startOffset: 1.312338
+    endOffset: 1.312338
+    totalZDistance: 3.93701
+    middleZDistance: 1.312335
+    startZDistance: 2.624673
+    endZDistance: 2.624672
+    minStartZ: 0
+    maxStartZ: 2.624673
+    minMiddleZ: 1.312338
+    maxMiddleZ: 2.624673
+    minEndZ: 1.312338
+    maxEndZ: 3.93701
+    smoothStart: 0
+    smoothMiddle: 0
+    smoothEnd: 0
+    targetObject: {fileID: 0}
+    bridgeObject: 0
+    snapToTerrain: 0
+    layer: 0
+    deformationObject: 0
+    isStatic: 1
+  - version: 2.0.0
+    name: Concrete Barrier Simple Left
+    id: 1422205435.66325
+    timestamp: 1427359113.98441
+    objectType: 2
+    gameobjectGUID:
+    textureGUID:
+    m_distance: 10
+    uvx: 0.1
+    uvy: 1
+    position: 0
+    splinePosition: 0
+    selectedRotation: 0
+    nodeList: []
+    uvDistances: []
+    reverseUVs: 0
+    totalDistance: 0
+    snapList:
+    colorList: []
+    gameobjectStartGUID:
+    gameobjectEndGUID:
+    align: 3
+    weld: 1
+    combine: 1
+    combineInstantiated: 1
+    markerActive: 1
+    uvType: 0
+    uv: 1
+    randomObjects: 0
+    sidewaysOffset: 0
+    density: 0
+    goPath:
+    startPath:
+    endPath:
+    texturePath:
+    terrainTree: 0
+    minScale: 1
+    maxScale: 1
+    childOrderActive: 0
+    childOrder: 0
+    meshBoundsAlignment: 0
+    xPosition: -1
+    relativeTo: 1
+    yPosition: 0
+    yRotation: 0
+    oldSidwaysDistance: 0
+    sidewaysDistanceUpdate: 0
+    uvYRound: 0
+    adjustUV: 1
+    collider: 0
+    tangents: 0
+    sourceObject: {fileID: 1921395291085613, guid: 319870d6c9cdc7444a0795bfc01d50fe, type: 2}
+    flipMesh: 0
+    endObject: {fileID: 0}
+    connectionObject: {fileID: 0}
+    material: {fileID: 0}
+    meshObjects: []
+    includeStartSegment: 1
+    startSegmentOffset: 0
+    includeStartEdgeTris: 0
+    includeEndSegment: 1
+    endSegmentOffset: 0
+    includeEndEdgeTris: 0
+    adjustToRoadWidth: 0
+    xOffset: 0
+    startOffset: 0.3670976
+    endOffset: 0.3741401
+    totalZDistance: 2.709743
+    middleZDistance: 1.968505
+    startZDistance: 2.335603
+    endZDistance: 2.342645
+    minStartZ: 0
+    maxStartZ: 2.335603
+    minMiddleZ: 0.3670976
+    maxMiddleZ: 2.335603
+    minEndZ: 0.3670976
+    maxEndZ: 2.709743
+    smoothStart: 0
+    smoothMiddle: 0
+    smoothEnd: 0
+    targetObject: {fileID: 0}
+    bridgeObject: 0
+    snapToTerrain: 0
+    layer: 0
+    deformationObject: 0
+    isStatic: 1
+  - version: 2.0.0
+    name: Concrete Barrier Simple Right
+    id: 1422205525.01636
+    timestamp: 1427359125.15005
+    objectType: 2
+    gameobjectGUID:
+    textureGUID:
+    m_distance: 10
+    uvx: 0.1
+    uvy: 1
+    position: 0
+    splinePosition: 0
+    selectedRotation: 0
+    nodeList: []
+    uvDistances: []
+    reverseUVs: 0
+    totalDistance: 0
+    snapList:
+    colorList: []
+    gameobjectStartGUID:
+    gameobjectEndGUID:
+    align: 3
+    weld: 1
+    combine: 1
+    combineInstantiated: 1
+    markerActive: 1
+    uvType: 0
+    uv: 1
+    randomObjects: 0
+    sidewaysOffset: 0
+    density: 0
+    goPath:
+    startPath:
+    endPath:
+    texturePath:
+    terrainTree: 0
+    minScale: 1
+    maxScale: 1
+    childOrderActive: 0
+    childOrder: 0
+    meshBoundsAlignment: 0
+    xPosition: 1
+    relativeTo: 2
+    yPosition: 0
+    yRotation: 0
+    oldSidwaysDistance: 0
+    sidewaysDistanceUpdate: 0
+    uvYRound: 0
+    adjustUV: 1
+    collider: 0
+    tangents: 0
+    sourceObject: {fileID: 1921395291085613, guid: 319870d6c9cdc7444a0795bfc01d50fe, type: 2}
+    flipMesh: 0
+    endObject: {fileID: 0}
+    connectionObject: {fileID: 0}
+    material: {fileID: 0}
+    meshObjects: []
+    includeStartSegment: 1
+    startSegmentOffset: 0
+    includeStartEdgeTris: 0
+    includeEndSegment: 1
+    endSegmentOffset: 0
+    includeEndEdgeTris: 0
+    adjustToRoadWidth: 0
+    xOffset: 0
+    startOffset: 0.3670976
+    endOffset: 0.3741401
+    totalZDistance: 2.709743
+    middleZDistance: 1.968505
+    startZDistance: 2.335603
+    endZDistance: 2.342645
+    minStartZ: 0
+    maxStartZ: 2.335603
+    minMiddleZ: 0.3670976
+    maxMiddleZ: 2.335603
+    minEndZ: 0.3670976
+    maxEndZ: 2.709743
+    smoothStart: 0
+    smoothMiddle: 0
+    smoothEnd: 0
+    targetObject: {fileID: 0}
+    bridgeObject: 0
+    snapToTerrain: 0
+    layer: 0
+    deformationObject: 0
+    isStatic: 1
+  - version: 2.0.0
+    name: Palm Trees Right
+    id: 1422280172.28466
+    timestamp: 1427360648.8102
+    objectType: 0
+    gameobjectGUID:
+    textureGUID:
+    m_distance: 10
+    uvx: 0.1
+    uvy: 1
+    position: 0
+    splinePosition: 0
+    selectedRotation: 0
+    nodeList: []
+    uvDistances: []
+    reverseUVs: 0
+    totalDistance: 0
+    snapList:
+    colorList: []
+    gameobjectStartGUID:
+    gameobjectEndGUID:
+    align: 0
+    weld: 1
+    combine: 1
+    combineInstantiated: 1
+    markerActive: 1
+    uvType: 0
+    uv: 1
+    randomObjects: 0
+    sidewaysOffset: 0
+    density: 0
+    goPath:
+    startPath:
+    endPath:
+    texturePath:
+    terrainTree: 1
+    minScale: 0.6
+    maxScale: 0.7
+    childOrderActive: 0
+    childOrder: 0
+    meshBoundsAlignment: 0
+    xPosition: 2
+    relativeTo: 2
+    yPosition: 0
+    yRotation: 0
+    oldSidwaysDistance: 0
+    sidewaysDistanceUpdate: 0
+    uvYRound: 0
+    adjustUV: 1
+    collider: 0
+    tangents: 0
+    sourceObject: {fileID: 1252782744120299, guid: 8d852d87449be0c4e8d1e749a6356703, type: 2}
+    flipMesh: 0
+    endObject: {fileID: 0}
+    connectionObject: {fileID: 0}
+    material: {fileID: 0}
+    meshObjects: []
+    includeStartSegment: 0
+    startSegmentOffset: 0
+    includeStartEdgeTris: 0
+    includeEndSegment: 0
+    endSegmentOffset: 0
+    includeEndEdgeTris: 0
+    adjustToRoadWidth: 0
+    xOffset: 0
+    startOffset: 0
+    endOffset: 0
+    totalZDistance: 9.239726
+    middleZDistance: 10
+    startZDistance: 7.914005
+    endZDistance: 9.239726
+    minStartZ: 2.941724
+    maxStartZ: 10.85573
+    minMiddleZ: 2.941724
+    maxMiddleZ: 10.85573
+    minEndZ: 2.941724
+    maxEndZ: 12.18145
+    smoothStart: 0
+    smoothMiddle: 0
+    smoothEnd: 0
+    targetObject: {fileID: 0}
+    bridgeObject: 0
+    snapToTerrain: 0
+    layer: 0
+    deformationObject: 0
+    isStatic: 0
+  - version: 2.0.0
+    name: Palm Trees Left
+    id: 1422283787.14942
+    timestamp: 1427360652.61742
+    objectType: 0
+    gameobjectGUID:
+    textureGUID:
+    m_distance: 10
+    uvx: 0.1
+    uvy: 1
+    position: 0
+    splinePosition: 0
+    selectedRotation: 0
+    nodeList: []
+    uvDistances:
+    - 0
+    reverseUVs: 0
+    totalDistance: 0
+    snapList:
+    colorList: []
+    gameobjectStartGUID:
+    gameobjectEndGUID:
+    align: 0
+    weld: 1
+    combine: 1
+    combineInstantiated: 1
+    markerActive: 1
+    uvType: 0
+    uv: 1
+    randomObjects: 0
+    sidewaysOffset: 0
+    density: 0
+    goPath:
+    startPath:
+    endPath:
+    texturePath:
+    terrainTree: 1
+    minScale: 0.6
+    maxScale: 0.7
+    childOrderActive: 0
+    childOrder: 0
+    meshBoundsAlignment: 0
+    xPosition: -2
+    relativeTo: 1
+    yPosition: 0
+    yRotation: 0
+    oldSidwaysDistance: 0
+    sidewaysDistanceUpdate: 0
+    uvYRound: 0
+    adjustUV: 1
+    collider: 0
+    tangents: 0
+    sourceObject: {fileID: 1252782744120299, guid: 8d852d87449be0c4e8d1e749a6356703, type: 2}
+    flipMesh: 0
+    endObject: {fileID: 0}
+    connectionObject: {fileID: 0}
+    material: {fileID: 0}
+    meshObjects: []
+    includeStartSegment: 0
+    startSegmentOffset: 0
+    includeStartEdgeTris: 0
+    includeEndSegment: 0
+    endSegmentOffset: 0
+    includeEndEdgeTris: 0
+    adjustToRoadWidth: 0
+    xOffset: 0
+    startOffset: 0
+    endOffset: 0
+    totalZDistance: 0
+    middleZDistance: 10
+    startZDistance: 0
+    endZDistance: 0
+    minStartZ: 10000
+    maxStartZ: -10000
+    minMiddleZ: 10000
+    maxMiddleZ: -10000
+    minEndZ: 10000
+    maxEndZ: -10000
+    smoothStart: 0
+    smoothMiddle: 0
+    smoothEnd: 0
+    targetObject: {fileID: 0}
+    bridgeObject: 0
+    snapToTerrain: 0
+    layer: 0
+    deformationObject: 0
+    isStatic: 0
+  - version: 2.0.0
+    name: Guard Rail Right
+    id: 1422283828.24377
+    timestamp: 1427359145.38921
+    objectType: 2
+    gameobjectGUID:
+    textureGUID:
+    m_distance: 10
+    uvx: 0.1
+    uvy: 1
+    position: 0
+    splinePosition: 0
+    selectedRotation: 0
+    nodeList: []
+    uvDistances: []
+    reverseUVs: 0
+    totalDistance: 0
+    snapList:
+    colorList: []
+    gameobjectStartGUID:
+    gameobjectEndGUID:
+    align: 3
+    weld: 1
+    combine: 1
+    combineInstantiated: 1
+    markerActive: 1
+    uvType: 0
+    uv: 1
+    randomObjects: 0
+    sidewaysOffset: 0
+    density: 0
+    goPath:
+    startPath:
+    endPath:
+    texturePath:
+    terrainTree: 0
+    minScale: 1
+    maxScale: 1
+    childOrderActive: 0
+    childOrder: 0
+    meshBoundsAlignment: 0
+    xPosition: -0.55
+    relativeTo: 2
+    yPosition: 0
+    yRotation: 0
+    oldSidwaysDistance: 0
+    sidewaysDistanceUpdate: 0
+    uvYRound: 0
+    adjustUV: 1
+    collider: 0
+    tangents: 0
+    sourceObject: {fileID: 1811517477149678, guid: 55ed929d8ce2b1846983b38c41eeb50d, type: 2}
+    flipMesh: 0
+    endObject: {fileID: 0}
+    connectionObject: {fileID: 0}
+    material: {fileID: 0}
+    meshObjects: []
+    includeStartSegment: 1
+    startSegmentOffset: 0
+    includeStartEdgeTris: 0
+    includeEndSegment: 1
+    endSegmentOffset: 0
+    includeEndEdgeTris: 0
+    adjustToRoadWidth: 0
+    xOffset: 0
+    startOffset: 1.046688
+    endOffset: 1.012275
+    totalZDistance: 4.058963
+    middleZDistance: 2.000058
+    startZDistance: 3.046688
+    endZDistance: 3.012333
+    minStartZ: 0
+    maxStartZ: 3.046688
+    minMiddleZ: 1.04663
+    maxMiddleZ: 3.046688
+    minEndZ: 1.04663
+    maxEndZ: 4.058963
+    smoothStart: 1
+    smoothMiddle: 1
+    smoothEnd: 1
+    targetObject: {fileID: 0}
+    bridgeObject: 0
+    snapToTerrain: 0
+    layer: 0
+    deformationObject: 0
+    isStatic: 0
+  - version: 2.0.0
+    name: Guard Rail Left
+    id: 1422283879.53971
+    timestamp: 1427359152.51361
+    objectType: 2
+    gameobjectGUID:
+    textureGUID:
+    m_distance: 10
+    uvx: 0.1
+    uvy: 1
+    position: 0
+    splinePosition: 0
+    selectedRotation: 0
+    nodeList: []
+    uvDistances: []
+    reverseUVs: 0
+    totalDistance: 0
+    snapList:
+    colorList: []
+    gameobjectStartGUID:
+    gameobjectEndGUID:
+    align: 3
+    weld: 1
+    combine: 1
+    combineInstantiated: 1
+    markerActive: 1
+    uvType: 0
+    uv: 1
+    randomObjects: 0
+    sidewaysOffset: 0
+    density: 0
+    goPath:
+    startPath:
+    endPath:
+    texturePath:
+    terrainTree: 0
+    minScale: 1
+    maxScale: 1
+    childOrderActive: 0
+    childOrder: 0
+    meshBoundsAlignment: 0
+    xPosition: 0.55
+    relativeTo: 1
+    yPosition: 0
+    yRotation: 0
+    oldSidwaysDistance: 0
+    sidewaysDistanceUpdate: 0
+    uvYRound: 0
+    adjustUV: 1
+    collider: 0
+    tangents: 0
+    sourceObject: {fileID: 1811517477149678, guid: 55ed929d8ce2b1846983b38c41eeb50d, type: 2}
+    flipMesh: 1
+    endObject: {fileID: 0}
+    connectionObject: {fileID: 0}
+    material: {fileID: 0}
+    meshObjects: []
+    includeStartSegment: 1
+    startSegmentOffset: 0
+    includeStartEdgeTris: 0
+    includeEndSegment: 1
+    endSegmentOffset: 0
+    includeEndEdgeTris: 0
+    adjustToRoadWidth: 0
+    xOffset: 0
+    startOffset: 1.046688
+    endOffset: 1.012275
+    totalZDistance: 4.058963
+    middleZDistance: 2.000058
+    startZDistance: 3.046688
+    endZDistance: 3.012333
+    minStartZ: 0
+    maxStartZ: 3.046688
+    minMiddleZ: 1.04663
+    maxMiddleZ: 3.046688
+    minEndZ: 1.04663
+    maxEndZ: 4.058963
+    smoothStart: 1
+    smoothMiddle: 1
+    smoothEnd: 1
+    targetObject: {fileID: 0}
+    bridgeObject: 0
+    snapToTerrain: 0
+    layer: 0
+    deformationObject: 0
+    isStatic: 0
+  - version: 2.0.0
+    name: Concrete Barrier
+    id: 1422295189.09458
+    timestamp: 1427359138.2408
+    objectType: 2
+    gameobjectGUID:
+    textureGUID:
+    m_distance: 10
+    uvx: 0.1
+    uvy: 1
+    position: 0
+    splinePosition: 0
+    selectedRotation: 0
+    nodeList: []
+    uvDistances: []
+    reverseUVs: 0
+    totalDistance: 0
+    snapList:
+    colorList: []
+    gameobjectStartGUID:
+    gameobjectEndGUID:
+    align: 3
+    weld: 1
+    combine: 1
+    combineInstantiated: 1
+    markerActive: 1
+    uvType: 0
+    uv: 1
+    randomObjects: 0
+    sidewaysOffset: 0
+    density: 0
+    goPath:
+    startPath:
+    endPath:
+    texturePath:
+    terrainTree: 0
+    minScale: 1
+    maxScale: 1
+    childOrderActive: 0
+    childOrder: 0
+    meshBoundsAlignment: 0
+    xPosition: 0
+    relativeTo: 0
+    yPosition: 0
+    yRotation: 0
+    oldSidwaysDistance: 0
+    sidewaysDistanceUpdate: 0
+    uvYRound: 0
+    adjustUV: 1
+    collider: 0
+    tangents: 0
+    sourceObject: {fileID: 1533364308364792, guid: c56ae7c4106ae374f9d5e328005fa3f5, type: 2}
+    flipMesh: 0
+    endObject: {fileID: 0}
+    connectionObject: {fileID: 0}
+    material: {fileID: 0}
+    meshObjects: []
+    includeStartSegment: 1
+    startSegmentOffset: 0
+    includeStartEdgeTris: 0
+    includeEndSegment: 1
+    endSegmentOffset: 0
+    includeEndEdgeTris: 0
+    adjustToRoadWidth: 0
+    xOffset: 0
+    startOffset: 0.4911126
+    endOffset: 0.4974176
+    totalZDistance: 2.957035
+    middleZDistance: 1.968505
+    startZDistance: 2.459618
+    endZDistance: 2.465923
+    minStartZ: 0
+    maxStartZ: 2.459618
+    minMiddleZ: 0.4911125
+    maxMiddleZ: 2.459618
+    minEndZ: 0.4911125
+    maxEndZ: 2.957035
+    smoothStart: 1
+    smoothMiddle: 1
+    smoothEnd: 1
+    targetObject: {fileID: 0}
+    bridgeObject: 0
+    snapToTerrain: 0
+    layer: 0
+    deformationObject: 0
+    isStatic: 0
+  - version: 2.0.0
+    name: Lamppost Right
+    id: 1422360127.29654
+    timestamp: 1427360664.97812
+    objectType: 0
+    gameobjectGUID:
+    textureGUID:
+    m_distance: 15
+    uvx: 0.1
+    uvy: 1
+    position: 0
+    splinePosition: 0
+    selectedRotation: 0
+    nodeList: []
+    uvDistances: []
+    reverseUVs: 0
+    totalDistance: 0
+    snapList:
+    colorList: []
+    gameobjectStartGUID:
+    gameobjectEndGUID:
+    align: 0
+    weld: 1
+    combine: 1
+    combineInstantiated: 1
+    markerActive: 1
+    uvType: 0
+    uv: 1
+    randomObjects: 0
+    sidewaysOffset: 0
+    density: 0
+    goPath:
+    startPath:
+    endPath:
+    texturePath:
+    terrainTree: 0
+    minScale: 1
+    maxScale: 1
+    childOrderActive: 0
+    childOrder: 0
+    meshBoundsAlignment: 0
+    xPosition: -0.3
+    relativeTo: 2
+    yPosition: 0
+    yRotation: 180
+    oldSidwaysDistance: 0
+    sidewaysDistanceUpdate: 0
+    uvYRound: 0
+    adjustUV: 1
+    collider: 0
+    tangents: 0
+    sourceObject: {fileID: 1324145884153324, guid: e890326ae0b5ac74bb59e8843a7bd98f, type: 2}
+    flipMesh: 0
+    endObject: {fileID: 0}
+    connectionObject: {fileID: 0}
+    material: {fileID: 0}
+    meshObjects: []
+    includeStartSegment: 0
+    startSegmentOffset: 0
+    includeStartEdgeTris: 0
+    includeEndSegment: 0
+    endSegmentOffset: 0
+    includeEndEdgeTris: 0
+    adjustToRoadWidth: 0
+    xOffset: 0
+    startOffset: 0
+    endOffset: 0
+    totalZDistance: 0
+    middleZDistance: 15
+    startZDistance: 0
+    endZDistance: 0
+    minStartZ: 10000
+    maxStartZ: -10000
+    minMiddleZ: 10000
+    maxMiddleZ: -10000
+    minEndZ: 10000
+    maxEndZ: -10000
+    smoothStart: 0
+    smoothMiddle: 0
+    smoothEnd: 0
+    targetObject: {fileID: 0}
+    bridgeObject: 0
+    snapToTerrain: 0
+    layer: 0
+    deformationObject: 0
+    isStatic: 1
+  - version: 2.0.0
+    name: Lamppost Left
+    id: 1422360239.97798
+    timestamp: 1427360670.48144
+    objectType: 0
+    gameobjectGUID:
+    textureGUID:
+    m_distance: 15
+    uvx: 0.1
+    uvy: 1
+    position: 0
+    splinePosition: 0
+    selectedRotation: 0
+    nodeList: []
+    uvDistances: []
+    reverseUVs: 0
+    totalDistance: 0
+    snapList:
+    colorList: []
+    gameobjectStartGUID:
+    gameobjectEndGUID:
+    align: 0
+    weld: 1
+    combine: 1
+    combineInstantiated: 1
+    markerActive: 1
+    uvType: 0
+    uv: 1
+    randomObjects: 0
+    sidewaysOffset: 0
+    density: 0
+    goPath:
+    startPath:
+    endPath:
+    texturePath:
+    terrainTree: 0
+    minScale: 1
+    maxScale: 1
+    childOrderActive: 0
+    childOrder: 0
+    meshBoundsAlignment: 0
+    xPosition: 0.3
+    relativeTo: 1
+    yPosition: 0
+    yRotation: 0
+    oldSidwaysDistance: 0
+    sidewaysDistanceUpdate: 0
+    uvYRound: 0
+    adjustUV: 1
+    collider: 0
+    tangents: 0
+    sourceObject: {fileID: 1324145884153324, guid: e890326ae0b5ac74bb59e8843a7bd98f, type: 2}
+    flipMesh: 0
+    endObject: {fileID: 0}
+    connectionObject: {fileID: 0}
+    material: {fileID: 0}
+    meshObjects: []
+    includeStartSegment: 0
+    startSegmentOffset: 0
+    includeStartEdgeTris: 0
+    includeEndSegment: 0
+    endSegmentOffset: 0
+    includeEndEdgeTris: 0
+    adjustToRoadWidth: 0
+    xOffset: 0
+    startOffset: 0
+    endOffset: 0
+    totalZDistance: 0
+    middleZDistance: 15
+    startZDistance: 0
+    endZDistance: 0
+    minStartZ: 10000
+    maxStartZ: -10000
+    minMiddleZ: 10000
+    maxMiddleZ: -10000
+    minEndZ: 10000
+    maxEndZ: -10000
+    smoothStart: 0
+    smoothMiddle: 0
+    smoothEnd: 0
+    targetObject: {fileID: 0}
+    bridgeObject: 0
+    snapToTerrain: 0
+    layer: 0
+    deformationObject: 0
+    isStatic: 1
+  - version: 2.0.0
+    name: Wirefence Right
+    id: 1424540150.62895
+    timestamp: 1427360675.69574
+    objectType: 2
+    gameobjectGUID:
+    textureGUID:
+    m_distance: 10
+    uvx: 0.1
+    uvy: 1
+    position: 0
+    splinePosition: 14
+    selectedRotation: 0
+    nodeList: []
+    uvDistances: []
+    reverseUVs: 0
+    totalDistance: 0
+    snapList:
+    colorList: []
+    gameobjectStartGUID:
+    gameobjectEndGUID:
+    align: 0
+    weld: 1
+    combine: 1
+    combineInstantiated: 1
+    markerActive: 1
+    uvType: 0
+    uv: 1
+    randomObjects: 0
+    sidewaysOffset: 0
+    density: 0
+    goPath:
+    startPath:
+    endPath:
+    texturePath:
+    terrainTree: 0
+    minScale: 1
+    maxScale: 1
+    childOrderActive: 0
+    childOrder: 0
+    meshBoundsAlignment: 0
+    xPosition: 0
+    relativeTo: 0
+    yPosition: 0
+    yRotation: 0
+    oldSidwaysDistance: 14
+    sidewaysDistanceUpdate: 0
+    uvYRound: 0
+    adjustUV: 1
+    collider: 0
+    tangents: 0
+    sourceObject: {fileID: 1637755446051106, guid: fcdddae1185f18f4a9565d0444ac9593, type: 2}
+    flipMesh: 0
+    endObject: {fileID: 0}
+    connectionObject: {fileID: 0}
+    material: {fileID: 0}
+    meshObjects: []
+    includeStartSegment: 0
+    startSegmentOffset: 0
+    includeStartEdgeTris: 0
+    includeEndSegment: 1
+    endSegmentOffset: 0
+    includeEndEdgeTris: 0
+    adjustToRoadWidth: 0
+    xOffset: 0
+    startOffset: 0
+    endOffset: 0.05499005
+    totalZDistance: 3.034575
+    middleZDistance: 2.985988
+    startZDistance: 2.985988
+    endZDistance: 3.034575
+    minStartZ: 0
+    maxStartZ: 2.985988
+    minMiddleZ: 0
+    maxMiddleZ: 2.985988
+    minEndZ: 0
+    maxEndZ: 3.034575
+    smoothStart: 0
+    smoothMiddle: 0
+    smoothEnd: 0
+    targetObject: {fileID: 0}
+    bridgeObject: 0
+    snapToTerrain: 1
+    layer: 0
+    deformationObject: 0
+    isStatic: 0
+  - version: 2.0.0
+    name: Wirefence Left
+    id: 1424540279.96035
+    timestamp: 1427360682.15911
+    objectType: 2
+    gameobjectGUID:
+    textureGUID:
+    m_distance: 10
+    uvx: 0.1
+    uvy: 1
+    position: 0
+    splinePosition: -14
+    selectedRotation: 0
+    nodeList: []
+    uvDistances: []
+    reverseUVs: 0
+    totalDistance: 0
+    snapList:
+    colorList: []
+    gameobjectStartGUID:
+    gameobjectEndGUID:
+    align: 0
+    weld: 1
+    combine: 1
+    combineInstantiated: 1
+    markerActive: 1
+    uvType: 0
+    uv: 1
+    randomObjects: 0
+    sidewaysOffset: 0
+    density: 0
+    goPath:
+    startPath:
+    endPath:
+    texturePath:
+    terrainTree: 0
+    minScale: 1
+    maxScale: 1
+    childOrderActive: 0
+    childOrder: 0
+    meshBoundsAlignment: 0
+    xPosition: 0
+    relativeTo: 0
+    yPosition: 0
+    yRotation: 0
+    oldSidwaysDistance: -14
+    sidewaysDistanceUpdate: 0
+    uvYRound: 0
+    adjustUV: 1
+    collider: 0
+    tangents: 0
+    sourceObject: {fileID: 1637755446051106, guid: fcdddae1185f18f4a9565d0444ac9593, type: 2}
+    flipMesh: 1
+    endObject: {fileID: 0}
+    connectionObject: {fileID: 0}
+    material: {fileID: 0}
+    meshObjects: []
+    includeStartSegment: 0
+    startSegmentOffset: 0
+    includeStartEdgeTris: 0
+    includeEndSegment: 1
+    endSegmentOffset: 0
+    includeEndEdgeTris: 0
+    adjustToRoadWidth: 0
+    xOffset: 0
+    startOffset: 0
+    endOffset: 0.05499005
+    totalZDistance: 3.034575
+    middleZDistance: 2.985988
+    startZDistance: 2.985988
+    endZDistance: 3.034575
+    minStartZ: 0
+    maxStartZ: 2.985988
+    minMiddleZ: 0
+    maxMiddleZ: 2.985988
+    minEndZ: 0
+    maxEndZ: 3.034575
+    smoothStart: 0
+    smoothMiddle: 0
+    smoothEnd: 0
+    targetObject: {fileID: 0}
+    bridgeObject: 0
+    snapToTerrain: 1
+    layer: 0
+    deformationObject: 0
+    isStatic: 0
+  ints:
+  roadPresets:
+  - roadTypeName: Default Road
+    id: 0
+    timestamp: 0
+    roadWidth: 5
+    outerIndent: 0
+    roadShape: []
+    roadShapeUVs: []
+    sidewalks: 0
+    sidewalkHeight: 0.2
+    sidewalkWidth: 2
+    roadMaterial: {fileID: 2100000, guid: b9bc6fa714a68944793831cb2d8e5696, type: 2}
+    connectionMaterial: {fileID: 2100000, guid: 858e9373081545e4896241b85680b427, type: 2}
+    isSideObject: 0
+    soData: []
+    soDataLog:
+    - id: 1
+      active: 0
+    - id: 2
+      active: 0
+    - id: 3
+      active: 0
+    - id: 4
+      active: 0
+    - id: 5
+      active: 0
+    - id: 6
+      active: 0
+    - id: 1422201194.12065
+      active: 0
+    - id: 1422201446.40108
+      active: 0
+    - id: 1422205435.66325
+      active: 0
+    - id: 1422205525.01636
+      active: 0
+    - id: 1422280172.28466
+      active: 0
+    - id: 1422283787.14942
+      active: 0
+    - id: 1422283828.24377
+      active: 0
+    - id: 1422283879.53971
+      active: 0
+    - id: 1422295189.09458
+      active: 0
+    - id: 1422360127.29654
+      active: 0
+    - id: 1422360239.97798
+      active: 0
+    layer: 0
+    splatMapActive: 0
+    splatIndex: 0
+    expandLevel: 0
+    smoothLevel: 0
+    splatOpacity: 0
+  - roadTypeName: Race Track
+    id: 1
+    timestamp: 1429206590.80157
+    roadWidth: 8
+    outerIndent: 0
+    roadShape: []
+    roadShapeUVs: []
+    sidewalks: 0
+    sidewalkHeight: 0.2
+    sidewalkWidth: 2
+    roadMaterial: {fileID: 2100000, guid: f04460273ef0cb546992290372a22e58, type: 2}
+    connectionMaterial: {fileID: 2100000, guid: 858e9373081545e4896241b85680b427, type: 2}
+    isSideObject: 0
+    soData: []
+    soDataLog:
+    - id: 1
+      active: 0
+    - id: 2
+      active: 0
+    - id: 3
+      active: 0
+    - id: 4
+      active: 0
+    - id: 5
+      active: 0
+    - id: 6
+      active: 0
+    - id: 1422201194.12065
+      active: 0
+    - id: 1422201446.40108
+      active: 0
+    - id: 1422205435.66325
+      active: 0
+    - id: 1422205525.01636
+      active: 0
+    - id: 1422280172.28466
+      active: 0
+    - id: 1422283787.14942
+      active: 0
+    - id: 1422283828.24377
+      active: 0
+    - id: 1422283879.53971
+      active: 0
+    - id: 1422295189.09458
+      active: 0
+    - id: 1422360127.29654
+      active: 0
+    - id: 1422360239.97798
+      active: 0
+    - id: 1424540150.62895
+      active: 0
+    - id: 1424540279.96035
+      active: 0
+    layer: 0
+    splatMapActive: 0
+    splatIndex: 0
+    expandLevel: 0
+    smoothLevel: 0
+    splatOpacity: 0
+  - roadTypeName: Motorway 2x2
+    id: 2
+    timestamp: 2
+    roadWidth: 20
+    outerIndent: 0
+    roadShape: []
+    roadShapeUVs: []
+    sidewalks: 0
+    sidewalkHeight: 0.2
+    sidewalkWidth: 2
+    roadMaterial: {fileID: 2100000, guid: e8f8b3422def1a44782e876ee859d9a4, type: 2}
+    connectionMaterial: {fileID: 0}
+    isSideObject: 0
+    soData: []
+    soDataLog:
+    - id: 1
+      active: 0
+    - id: 2
+      active: 0
+    - id: 3
+      active: 0
+    - id: 4
+      active: 0
+    - id: 5
+      active: 0
+    - id: 6
+      active: 0
+    - id: 1422201194.12065
+      active: 0
+    - id: 1422201446.40108
+      active: 0
+    - id: 1422205435.66325
+      active: 0
+    - id: 1422205525.01636
+      active: 0
+    - id: 1422280172.28466
+      active: 1
+    - id: 1422283787.14942
+      active: 1
+    - id: 1422283828.24377
+      active: 1
+    - id: 1422283879.53971
+      active: 1
+    - id: 1422295189.09458
+      active: 1
+    - id: 1422360127.29654
+      active: 1
+    - id: 1422360239.97798
+      active: 1
+    layer: 0
+    splatMapActive: 0
+    splatIndex: 0
+    expandLevel: 0
+    smoothLevel: 0
+    splatOpacity: 0
+  - roadTypeName: Side Object General
+    id: 3
+    timestamp: 3
+    roadWidth: 6
+    outerIndent: 0
+    roadShape: []
+    roadShapeUVs: []
+    sidewalks: 0
+    sidewalkHeight: 0.2
+    sidewalkWidth: 2
+    roadMaterial: {fileID: 0}
+    connectionMaterial: {fileID: 0}
+    isSideObject: 1
+    soData: []
+    soDataLog:
+    - id: 1
+      active: 0
+    - id: 2
+      active: 0
+    - id: 3
+      active: 0
+    - id: 4
+      active: 0
+    - id: 5
+      active: 0
+    - id: 6
+      active: 0
+    - id: 1422201194.12065
+      active: 0
+    - id: 1422201446.40108
+      active: 0
+    - id: 1422205435.66325
+      active: 0
+    - id: 1422205525.01636
+      active: 0
+    - id: 1422280172.28466
+      active: 0
+    - id: 1422283787.14942
+      active: 0
+    - id: 1422283828.24377
+      active: 0
+    - id: 1422283879.53971
+      active: 0
+    - id: 1422295189.09458
+      active: 0
+    - id: 1422360127.29654
+      active: 0
+    - id: 1422360239.97798
+      active: 0
+    layer: 0
+    splatMapActive: 0
+    splatIndex: 0
+    expandLevel: 0
+    smoothLevel: 0
+    splatOpacity: 0
+  - roadTypeName: Fence 2
+    id: 4
+    timestamp: 4
+    roadWidth: 6
+    outerIndent: 0
+    roadShape: []
+    roadShapeUVs: []
+    sidewalks: 0
+    sidewalkHeight: 0.2
+    sidewalkWidth: 2
+    roadMaterial: {fileID: 0}
+    connectionMaterial: {fileID: 0}
+    isSideObject: 1
+    soData: []
+    soDataLog:
+    - id: 1
+      active: 0
+    - id: 2
+      active: 1
+    - id: 3
+      active: 0
+    - id: 4
+      active: 0
+    - id: 5
+      active: 0
+    - id: 6
+      active: 0
+    - id: 1422201194.12065
+      active: 0
+    - id: 1422201446.40108
+      active: 0
+    - id: 1422205435.66325
+      active: 0
+    - id: 1422205525.01636
+      active: 0
+    - id: 1422280172.28466
+      active: 0
+    - id: 1422283787.14942
+      active: 0
+    - id: 1422283828.24377
+      active: 0
+    - id: 1422283879.53971
+      active: 0
+    - id: 1422295189.09458
+      active: 0
+    - id: 1422360127.29654
+      active: 0
+    - id: 1422360239.97798
+      active: 0
+    layer: 0
+    splatMapActive: 0
+    splatIndex: 0
+    expandLevel: 0
+    smoothLevel: 0
+    splatOpacity: 0
+  crossingCornerPresets: []
+  sidewalkPresets: []
+  updateInt: 2

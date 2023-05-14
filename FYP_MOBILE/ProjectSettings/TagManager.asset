@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - PlayerHead
+  - Gun
+  - CoverPosition
+  - Enemy
+  - Money
+  - Battery
+  - Ammo
+  - EnemyHead
+  - Cover
+  - Health
+  - SniperEnemyHead
+  - EGAk47
+  - EnemyGun
+  - Door
+  - DoorFance
+  - CF
+  - C4Pos
+  - Canvas
+  - Ekey
+  - Eopen
+  - Keycard
+  - PcWork
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Gun
+  - fance
+  - Lod1
+  - Lod2
+  - Lod3
+  - EnemyLod
+  - EnemyTank
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

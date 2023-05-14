@@ -1,0 +1,327 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+PrefabInstance:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+--- !u!1 &1623158177454697
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4140999471939091}
+  - component: {fileID: 114516600301495552}
+  m_Layer: 0
+  m_Name: ER Road Network
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4140999471939091
+Transform:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1623158177454697}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4887833046398096}
+  - {fileID: 4182589502300691}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114516600301495552
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1623158177454697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4ee73904f653064a8de01ccdbfce380, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  updateInt: 3
+  toolbarInt: -1
+  menuTexs:
+  - {fileID: 2800000, guid: b054367863aaa534cba1cbf29e6df5b6, type: 3}
+  - {fileID: 2800000, guid: 7cf9ea93355c85044ba0ca84aed8ff4e, type: 3}
+  - {fileID: 2800000, guid: db39eb2dbe634754b91d2391820c917f, type: 3}
+  - {fileID: 2800000, guid: 7332137b260e3af4ab8c860ca2cd3e8a, type: 3}
+  - {fileID: 2800000, guid: 5f4a313fd002c5545b7faba34371d492, type: 3}
+  - {fileID: 2800000, guid: 5f51024698f468c42b462afc791c5fd8, type: 3}
+  - {fileID: 2800000, guid: 39122038d3cd5214bb59164951c60b8f, type: 3}
+  cprefab: {fileID: 0}
+  roadObjectsParent: {fileID: 4182589502300691}
+  connectionObjectsParent: {fileID: 4887833046398096}
+  OQCCODDOOQ: {fileID: 0}
+  roadTypes:
+  - roadTypeName: Default Road
+    id: 0
+    timestamp: 0
+    roadWidth: 5
+    outerIndent: 0
+    roadShape: []
+    roadShapeUVs: []
+    sidewalks: 0
+    sidewalkHeight: 0.2
+    sidewalkWidth: 2
+    roadMaterial: {fileID: 2100000, guid: b9bc6fa714a68944793831cb2d8e5696, type: 2}
+    connectionMaterial: {fileID: 2100000, guid: 858e9373081545e4896241b85680b427, type: 2}
+    isSideObject: 0
+    soData: []
+    soDataLog: []
+    layer: 0
+    splatMapActive: 0
+    splatIndex: 0
+    expandLevel: 0
+    smoothLevel: 0
+    splatOpacity: 0
+  selectedRoadType: 0
+  selectedNewRoadType: 0
+  roadWidth: 5
+  roadMaterial: {fileID: 2100000, guid: b9bc6fa714a68944793831cb2d8e5696, type: 2}
+  crossingMaterial: {fileID: 2100000, guid: b9bc6fa714a68944793831cb2d8e5696, type: 2}
+  roundAboutMaterial: {fileID: 2100000, guid: 95b5f76c8426af945a9ec2fb69847c89, type: 2}
+  roundAboutConnectionMaterial: {fileID: 2100000, guid: 091b4b3c4bdf09c4cb65290387c4cbb8, type: 2}
+  roundAboutRoadMaterial: {fileID: 2100000, guid: b9bc6fa714a68944793831cb2d8e5696, type: 2}
+  sidewalkMaterial: {fileID: 0}
+  roadMaterials:
+  - 2x2 lane road
+  - 3 lane road
+  - blue material
+  - crosswalk 3 road
+  - dirt material
+  - motorway 2 lanes
+  - race track material
+  - road material
+  - road medieval
+  - road sidewalks
+  - single lane sides
+  - single lane
+  connectionMaterials:
+  - crossing material
+  - road X sidewalks
+  selectedMaterial: 0
+  selectedConnectionMaterial: 0
+  handleSelection: 0
+  positionHandleSelection: 0
+  defaultCrossing: {fileID: 1889586826436659, guid: cd489091ef13b1e4084c28cdca0b418a, type: 2}
+  defaultTCrossing: {fileID: 1881097012369039, guid: 602d4f225c024384091a10a108dc5733, type: 2}
+  defaultCulDeSac: {fileID: 1696778203877378, guid: 7f7c8c8592556fd44b0644f6fee2a314, type: 2}
+  defaultRoundabout: {fileID: 0}
+  tex: {fileID: 0}
+  showAllPrefabs: 1
+  standardPrefabsFlag: 0
+  sceneSettingsFoldOut: 0
+  sceneRoadsFoldOut: 0
+  scenePrefabsFoldOut: 0
+  terrainManagementFoldOut: 0
+  importRoadDataFoldOut: 0
+  lodGroupsFoldOut: 0
+  defaultMaterialsFoldOut: 0
+  kmlFlag: 0
+  osmFlag: 0
+  showRoadSideObjects: 0
+  osmTerrainTopLon: 0
+  osmTerrainBottomLon: 0
+  osmTerrainLeftLat: 0
+  osmTerrainRightLat: 0
+  terrainMinIndent: 5
+  minIndent: 5
+  minSurrounding: 5
+  terrainY: 0
+  raise: 0
+  baseVector: {x: 0, y: 0, z: 0}
+  mirrorCrossings: 1
+  terrainNames:
+  - All Terrains
+  - Terrain
+  terrainObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  terrainSplatTextures: []
+  activeTerrain: {fileID: 0}
+  activeTerrainY: 0
+  selectedTerrain: 0
+  terrainDone: 0
+  enableBackWithoutRestore: 0
+  detailDistance: 3
+  treeDistance: 5
+  doTrees: 1
+  soTrees: 1
+  doDetail: 1
+  terrainRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  surfaceObjects: []
+  preserveTerrainFloat: 1
+  doTangents: 0
+  doLightmapUVs: 0
+  doLODGroups: 0
+  doSplatmaps: 0
+  terrainHits: []
+  osmCrossingPoints: []
+  cornerPresets: []
+  sidewalkPresets: []
+  osmMotorway: 0
+  osmTrunk: 0
+  osmPrimary: 0
+  osmSecondary: 0
+  osmTertiary: 0
+  osmUnclassified: 0
+  osmResidential: 0
+  osmService: 0
+  osmTrack: 0
+  osmPath: 0
+  osmMotorwayFlag: 1
+  osmTrunkFlag: 1
+  osmPrimaryFlag: 1
+  osmSecondaryFlag: 1
+  osmTertiaryFlag: 1
+  osmUnclassifiedFlag: 1
+  osmResidentialFlag: 1
+  osmServiceFlag: 1
+  osmTrackFlag: 1
+  osmPathFlag: 1
+  lodGroups: 0
+  LODLevels: 4
+  LODLevelValues:
+  - 0.6
+  - 0.4
+  - 0.2
+  - 0
+  LODLevelResolution:
+  - 0.9
+  - 0.8
+  - 0.6
+  - 0.4
+  embedRoadShape: 0
+  hideSurfaces: 0
+  useLightProbes: 0
+  OQODDOQDDQ: 0
+  isInBuildMode: 0
+  QOQDQOOQDDQOOQ: []
+  sideObjectNames: []
+  selSideObject: 0
+  soID:
+  sideObjectName:
+  sideObjectType: 0
+  sideObjectSource: {fileID: 0}
+  soEndObject: {fileID: 0}
+  sideObjectTerrainVegetationInt: 0
+  prefabChildHandling: 0
+  sideObjectDistance: 1
+  soYAxisRotation: 0
+  soSidewaysDistance: 0
+  soSidewaysDistanceHandling: 0
+  soDensity: 1
+  soOffset: 0
+  soTerrainAligment: 0
+  soCombine: 0
+  soWeld: 0
+  soControllerType: 0
+  soMaterial: {fileID: 0}
+  soXPosition: 0
+  soYPosition: 0
+  soMarkerActive: 1
+  enableSOHandles: 1
+  displayCriticalPoints: 1
+  soDeformationObjects: []
+  soSplatmapObjects: []
+  buildSOinEditMode: 0
+  importSideObjectsAlert: 1
+  importRoadPresetsAlert: 0
+  importCrossingPresetsAlert: 0
+  importSidewalkPresetsAlert: 0
+  updateSideObjectsAlert: 1
+  updateRoadPresetsAlert: 0
+  updateCrossingPresetsAlert: 0
+  updateSidewalkPresetsAlert: 0
+  waypointDistance: 10
+  RoadObjectsSoUpdates: []
+  assetsFolderID:
+  meshSurface: {fileID: 0}
+  meshTerrainCollider: {fileID: 0}
+  markerScale: 1
+  debugFlag: 0
+--- !u!1 &1222444927656564
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4887833046398096}
+  - component: {fileID: 114447490258160555}
+  m_Layer: 0
+  m_Name: Connection Objects
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4887833046398096
+Transform:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1222444927656564}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4140999471939091}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114447490258160555
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1222444927656564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed16b629370983e428dd1c76698f81e7, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1 &1632916284959201
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4182589502300691}
+  m_Layer: 0
+  m_Name: Road Objects
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4182589502300691
+Transform:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1632916284959201}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4140999471939091}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}

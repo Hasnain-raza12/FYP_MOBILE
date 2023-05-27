@@ -4891,6 +4891,11 @@ PrefabInstance:
       propertyPath: gunName
       value: M4A1
       objectReference: {fileID: 0}
+    - target: {fileID: 7593945917825213940, guid: 013e442a686b3c242a4c62c4533527f9,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7593945917825214458, guid: 013e442a686b3c242a4c62c4533527f9,
         type: 3}
       propertyPath: m_Mass

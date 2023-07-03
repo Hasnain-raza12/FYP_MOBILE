@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Player : MonoBehaviour
@@ -66,7 +67,8 @@ public class Player : MonoBehaviour
 			Canvas.SetActive(value: false);
 			Object.Instantiate(Deadreplace, base.transform.position, base.transform.rotation).GetComponent<Rigidbody>().AddForce(20f, 10f, -50f);
 			PlayerG.SetActive(value: false);
-			Cursor.lockState = CursorLockMode.Confined;
+            SceneManager.LoadScene("MainMenu");
+            Cursor.lockState = CursorLockMode.Confined;
 			Cursor.visible = true;
 		}
 	}
